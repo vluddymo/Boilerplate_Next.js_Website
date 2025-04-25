@@ -1,0 +1,44 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "footer": {
+      "rights": "All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "buttons": {
+      "readMore": "Read more",
+      "submit": "Submit",
+      "cancel": "Cancel"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Welcome to our Project",
+      "subtitle": "A Next.js boilerplate with TypeScript, Tailwind CSS, and internationalization",
+      "cta": "Get started"
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "Learn more about our company and our mission."
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Have questions? Feel free to contact us.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message"
+      }
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you are looking for does not exist.",
+      "backHome": "Back to home"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "common": {
+    "nav": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    },
+    "footer": {
+      "rights": "Alle Rechte vorbehalten.",
+      "privacy": "Datenschutz",
+      "terms": "AGB"
+    },
+    "buttons": {
+      "readMore": "Mehr erfahren",
+      "submit": "Absenden",
+      "cancel": "Abbrechen"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Willkommen bei unserem Projekt",
+      "subtitle": "Eine Next.js-Boilerplate mit TypeScript, Tailwind CSS und Internationalisierung",
+      "cta": "Los geht's"
+    },
+    "about": {
+      "title": "Über uns",
+      "subtitle": "Erfahren Sie mehr über unser Unternehmen und unsere Mission."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Haben Sie Fragen? Kontaktieren Sie uns gerne.",
+      "form": {
+        "name": "Name",
+        "email": "E-Mail",
+        "message": "Nachricht"
+      }
+    },
+    "notFound": {
+      "title": "Seite nicht gefunden",
+      "description": "Die von Ihnen gesuchte Seite existiert nicht.",
+      "backHome": "Zurück zur Startseite"
+    }
+  }
+}
