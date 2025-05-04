@@ -1,10 +1,13 @@
+
 import Link from 'next/link';
 
+import Board from "@/components/playboard/board";
+import {getDictionary} from '@/lib/i18n';
+import type {Locale} from '@/types';
 
-import { getDictionary } from '@/lib/i18n';
-import type { Locale } from '@/types';
 
-import type { Metadata } from 'next';
+import type {Metadata} from 'next';
+
 
 interface HomePageProps {
     params: {
@@ -12,8 +15,8 @@ interface HomePageProps {
     };
 }
 
-export async function generateMetadata({ params }: HomePageProps): Promise<Metadata> {
-    const { locale } = params;
+export async function generateMetadata({params}: HomePageProps): Promise<Metadata> {
+    const {locale} = params;
     const dict = await getDictionary(locale);
 
     return {
@@ -22,8 +25,8 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
     };
 }
 
-export default async function HomePage({ params }: HomePageProps) {
-    const { locale } = params;
+export default async function HomePage({params}: HomePageProps) {
+    const {locale} = params;
     const dict = await getDictionary(locale);
 
     return (
@@ -37,12 +40,7 @@ export default async function HomePage({ params }: HomePageProps) {
                         <p className="text-xl text-gray-600 mb-8">
                             {dict.pages.home.subtitle}
                         </p>
-                        <Link
-                            className="btn btn-primary"
-                            href={`/${locale}/about`}
-                        >
-                            {dict.pages.home.cta}
-                        </Link>
+                        <Board dict={dict} locale={locale}/>
                     </div>
                 </div>
             </section>

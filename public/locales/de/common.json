@@ -18,8 +18,8 @@
   },
   "pages": {
     "home": {
-      "title": "Willkommen bei unserem Projekt",
-      "subtitle": "Eine Next.js-Boilerplate mit TypeScript, Tailwind CSS und Internationalisierung",
+      "title": "Willkommen bei Cambio",
+      "subtitle": "Hier können wir geil zocken",
       "cta": "Los geht's"
     },
     "about": {
